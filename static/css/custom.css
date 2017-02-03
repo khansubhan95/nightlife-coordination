@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+	color: white;
+}
+i.fa.fa-github-square,
+i.fa.fa-sign-out {
+	color: white;
+	cursor: pointer;
+}
+
+.caps {
+	text-transform: capitalize;
+}
+
+.submit-btn {
+	display: block;
+	clear: left;
+	margin: auto;
+	margin-top: 2%;
+}
+
+.submit-text {
+	display: block;
+	border-radius: 2%;
+	width: 20%;
+	margin: auto;
+}
+
+#auth {
+	margin-top: 20%;
+}
