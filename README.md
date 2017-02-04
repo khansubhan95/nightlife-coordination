@@ -1,6 +1,6 @@
 #Nightlife Coordination
 
-A web application describing the nightlife in your city. Search for and decide where to go tonight. Uses the Foursquare API
+A web application describing the nightlife in your city. Search for and decide where to go tonight. Uses the Foursquare API.
 
 ##Getting Started
 
