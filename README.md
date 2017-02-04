@@ -10,7 +10,7 @@ A web application describing the nightlife in your city. Search for and decide w
 2. [npm](https://www.npmjs.com)
 3. [mongodb](https://www.mongodb.com/)
 
-###Installing
+###Installation
 Clone the project
 
 ```git
