@@ -53,12 +53,12 @@ Goto settings - configvars
 and for each variable (except PORT) in .env enter key and corresponding value generated above as given above.
 
 ##Builtwith
-1. express(https://expressjs.com/)      
-2. mongoose(http://mongoosejs.com/)
-4. passport(http://passportjs.org/)
-5. ejs(www.embeddedjs.com/)
-6. jQuery(https://jquery.com)
-7. font-awesome(http://fontawesome.io/icons/)
+1. [express](https://expressjs.com/)      
+2. [mongoose](http://mongoosejs.com/)
+4. [passport](http://passportjs.org/)
+5. [ejs](www.embeddedjs.com/)
+6. [jQuery](https://jquery.com)
+7. [font-awesome](http://fontawesome.io/icons/)
 
 View other dependencies in package.json
 
