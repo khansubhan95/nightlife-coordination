@@ -35,7 +35,7 @@ module.exports = function(app, passport) {
 		var apiEndPoint = 'https://api.foursquare.com/v2/venues/explore?near='+location+'&query=nightlife&v='+version+'&client_id='+process.env.FSQ_CLIENT_ID+'&client_secret='+process.env.FSQ_CLIENT_SECRET
 		console.log(apiEndPoint);
 		request.get(apiEndPoint, function(err, response, body){
-			if (!err && response.statusCode===200)
+			if (!err && response.statusCode===200) {
 				var receivedData = JSON.parse(body)
 				var data = receivedData.response.groups[0].items.slice(0,10)
 				var displayLocation = receivedData.response.geocode.where
@@ -59,6 +59,7 @@ module.exports = function(app, passport) {
 				else {
 					res.render('list', {barsPresent: true, bars: bars,symbol: u, id: false, city: location});
 				}
+			}
 		})
 	})
 
