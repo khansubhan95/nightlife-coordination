@@ -22,8 +22,9 @@ i.fa.fa-sign-out {
 .submit-text {
 	display: block;
 	border-radius: 2%;
-	width: 20%;
+	width: 100%;
 	margin: auto;
+	color: black;
 }
 
 #auth {

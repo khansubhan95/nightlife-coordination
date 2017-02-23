@@ -24,21 +24,27 @@
 <div class="container-fluid" style="min-height: 95%">
 
 	<div class="row">
-		<div class="col-xs-6 text-left"><h1>Bars in your area</h1></div>
+		<div class="col-xs-9 text-left"><h1>Bars in your area</h1></div>
 			
-		<div class="col-xs-6 text-right">
+		<div class="col-xs-3 text-right">
 		<h1>
 		<% if (id) {%>
 			<a href="/logout"><i class="fa fa-sign-out"></i></a>
 		<% } %>
 		<a href="/login"><%- symbol %></a></h1>
-	</div>
+		</div>
 
 	</div>	
+	<div class="row">
+	<div class="col-md-3 col-sm-0 col-xs-0"></div>
+	<div class="col-md-6 col-xs-12 col-xs-12">
 			<form method="POST" action="/">
-				<input class="submit-text" type="text" name="location" required="true" placeholder="Enter your place">
+				<input class="submit-text form-control" type="text" name="location" required="true" placeholder="Enter your place">
 				<button class="btn btn-default submit-btn" id="submit-button" type="submit">Submit</button>
 			</form>
+			</div>
+			<div class="col-md-3 col-sm-0 col-xs-0"></div>
+			</div>
 
 			<h2 class="caps"><%= city %></h2>
 			<% if (barsPresent) { %>
