@@ -1,7 +1,33 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	background-color: black;
 	color: white;
+	margin-bottom: 60px;
 }
+
+.container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	background-color: black;
+	width: 96%;
+}
+
+a,
+a:hover {
+	color: white;
+}
+
 i.fa.fa-github-square,
 i.fa.fa-sign-out {
 	color: white;
