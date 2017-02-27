@@ -84,6 +84,12 @@ module.exports = function(app, passport) {
 		successRedirect: '/',
 		failureRedirect: '/login'
 	}))
+
+	app.use(function(req, res, next) {
+		if (req.accepts('html')) {
+			res.render('404', { url: req.url });
+		}
+	})
 }
 
 function formatDate(date) {
