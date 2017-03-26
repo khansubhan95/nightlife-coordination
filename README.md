@@ -1,16 +1,16 @@
-#Nightlife Coordination
+# Nightlife Coordination
 
 A web application describing the nightlife in your city. Search for and decide where to go tonight. Uses the [Foursquare API](https://developer.foursquare.com/). Passport JS GitHub strategy is used for user authentication.
 
-##Getting Started
+## Getting Started
 
-###Prerequisites
+### Prerequisites
 
 1. [node](https://nodejs.org/en/)
 2. [npm](https://www.npmjs.com)
 3. [mongodb](https://www.mongodb.com/)
 
-###Installation
+### Installation
 Clone the project
 
 ```git
@@ -25,7 +25,7 @@ npm install
 
 to install the dependencies
 
-###Development
+### Development
 Rename .env.template to .env
 
 Make an OAuth application on GitHub (settings - OAuth Applications) with project URL as http://127.0.0.1:3000 and callback URL as http://127.0.0.1:3000/auth/github/callback, note down generated ID and secret and fill it in .env
@@ -34,7 +34,7 @@ Sign up on [Foursquare](https://developer.foursquare.com/) to access their API. 
 
 The project uses MongoDB to store data so make sure you have it installed. Use the MONGO_URI to access a DB from the app.
 
-##Deployment
+## Deployment
 Sign up on heroku and install heroku CLI tools. In the project's root run heroku create. Now you need to set config vars for the heroku application. 
 
 **GitHub ID and Secret**
@@ -55,7 +55,7 @@ Goto settings - configvars
 
 and for each variable (except PORT) in .env enter key and corresponding value generated above as given above.
 
-##Builtwith
+## Builtwith
 1. [express](https://expressjs.com/)      
 2. [mongoose](http://mongoosejs.com/)
 4. [passport](http://passportjs.org/)
@@ -65,12 +65,12 @@ and for each variable (except PORT) in .env enter key and corresponding value ge
 
 View other dependencies in package.json
 
-##Contributing
+## Contributing
 1. Fork it
 2. Create your branch
 3. Commit your changes
 4. Push to branch
 5. Submit a pull request
 
-##Licensing
+## Licensing
 MIT
